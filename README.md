@@ -8,6 +8,10 @@
 `Get-Query localhost` по умолчанию \
 `Get-Query 192.168.1.1 | ft`
 
+### Версия 1.1.
+* Изменен вывод статуса без привязки к локализации на Active и Disconnect
+* Добавлен файл psd1 для разбивки версий
+
 > Не зависит от локализации операционной системы.
 
 ![Image alt](https://github.com/Lifailon/Get-Query/blob/rsa/Screen/Get-Query-RU.jpg)
