@@ -6,8 +6,8 @@
 
 `Get-Help Get-Query` \
 `Get-Query localhost` по умолчанию \
-`Get-Query 192.168.1.1 | ft`
-`Get-Query 192.168.1.1 -proc` список всех пользовательских процессов (по умолчанию -user *)
+`Get-Query 192.168.1.1 | ft` \
+`Get-Query 192.168.1.1 -proc` список всех пользовательских процессов (по умолчанию -user *) \
 `Get-Query 192.168.1.1 -proc -user username`
 
 ![Image alt](https://github.com/Lifailon/Get-Query/blob/rsa/Screen/Get-Query-RU.jpg)
