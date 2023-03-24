@@ -10,12 +10,13 @@
 `Get-Query 192.168.1.1 -proc` список всех пользовательских процессов (по умолчанию -user *) \
 `Get-Query 192.168.1.1 -proc -user username`
 
-![Image alt](https://github.com/Lifailon/Get-Query/blob/rsa/Screen/Get-Query-RU.jpg)
-
-![Image alt](https://github.com/Lifailon/Get-Query/blob/rsa/Screen/Get-Query-EN.jpg)
-
+Для теневого подключения к выбранному сеансу воспользуйтесь данной конструкцией:
 ```PowerShell
 $srv = "localhost"
 $id = Get-Query $srv | ogv -PassThru | select -ExpandProperty id
 mstsc /v:$srv /shadow:$id /control /noconsentprompt
 ```
+
+![Image alt](https://github.com/Lifailon/Get-Query/blob/rsa/Screen/Get-Query-RU.jpg)
+
+![Image alt](https://github.com/Lifailon/Get-Query/blob/rsa/Screen/Get-Query-EN.jpg)
