@@ -13,9 +13,11 @@
 ### Для теневого подключения к выбранному сеансу воспользуйтесь данной конструкцией:
 ```PowerShell
 $srv = "192.168.1.1"
-$id = Get-Query $srv | ogv -PassThru | select -ExpandProperty id
+$id = Get-Query $srv | ogv -PassThru | select -ExpandProperty id # or Out-ConsoleGridView
 mstsc /v:$srv /shadow:$id /control /noconsentprompt
 ```
+
+![Image alt](https://github.com/Lifailon/Get-Query/blob/rsa/Screen/Get-Query-OCGV.jpg)
 
 ### Примеры:
 
