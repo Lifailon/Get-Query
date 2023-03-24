@@ -12,7 +12,7 @@
 
 ### Для теневого подключения к выбранному сеансу воспользуйтесь данной конструкцией:
 ```PowerShell
-$srv = "localhost"
+$srv = "192.168.1.1"
 $id = Get-Query $srv | ogv -PassThru | select -ExpandProperty id
 mstsc /v:$srv /shadow:$id /control /noconsentprompt
 ```
