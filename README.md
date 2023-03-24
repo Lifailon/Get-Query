@@ -22,9 +22,11 @@ mstsc /v:$srv /shadow:$id /control /noconsentprompt
 ### Примеры:
 
 > en language
+
 ![Image alt](https://github.com/Lifailon/Get-Query/blob/rsa/Screen/Get-Query-EN.jpg)
 
 > ru language
+
 ![Image alt](https://github.com/Lifailon/Get-Query/blob/rsa/Screen/Get-Query-RU.jpg)
 
 ![Image alt](https://github.com/Lifailon/Get-Query/blob/rsa/Screen/Get-Query-User-Process.jpg)
